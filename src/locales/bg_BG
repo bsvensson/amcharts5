@@ -1,0 +1,35 @@
+/**
+ * amCharts 5 locale
+ * 
+ * Locale: en
+ * Language: Bulgarian
+ * Author: Bjorn Svensson
+ *
+ * Follow instructions in [on this page](https://www.amcharts.com/docs/v5/tutorials/creating-translations/) to make corrections or add new translations.
+ *
+ * ---
+ * Edit but leave the header section above this line. You can remove any
+ * subsequent comment sections.
+ * ---
+ *
+ * 
+ * Empty string means no translation, so default "International English"
+ * will be used.
+ *
+ * If you need the translation to literally be an empty string, use `null`
+ * instead.
+ */
+export default {
+	
+	"_decimalSeparator": ",",
+	"_thousandSeparator": " ",
+
+	"_percentPrefix": null,
+	"_percentSuffix": "%",
+
+	"Zoom Out": "Отдалечаване",
+
+	"From %1 to %2": "От %1 до %2",
+	"From %1": "От %1",
+	"To %1": "До %1"
+};
