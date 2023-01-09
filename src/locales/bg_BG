@@ -12,7 +12,6 @@
  * subsequent comment sections.
  * ---
  *
- * 
  * Empty string means no translation, so default "International English"
  * will be used.
  *
@@ -27,6 +26,59 @@ export default {
 	"_percentPrefix": null,
 	"_percentSuffix": "%",
 
+	// Date-related stuff.
+	// 
+	// Should month names and weekdays be capitalized or not?
+	// 
+	// Rule of thumb is this: if the names should always be capitalized,
+	// regardless of name position within date ("January", "21st January 2018",
+	// etc.) use capitalized names. Otherwise enter all lowercase.
+	// 
+	// The date formatter will automatically capitalize names if they are the
+	// first (or only) word in resulting date.
+	
+        // Months -- from intl "long" and "short"
+	"January": "януари",
+	"February": "февруари",
+	"March": "март",
+	"April": "април",
+	"May": "май",
+	"June": "юни",
+	"July": "юли",
+	"August": "август",
+	"September": "септември",
+	"October": "октомври",
+	"November": "ноември",
+	"December": "декември",
+	"Jan": "януари",
+	"Feb": "февруари",
+	"Mar": "март",
+	"Apr": "април",
+	"May (short)": "май",
+	"Jun": "юни",
+	"Jul": "юли",
+	"Aug": "август",
+	"Sep": "септември",
+	"Oct": "октомври",
+	"Nov": "ноември",
+	"Dec": "декември",
+
+	// Weekdays -- from intl "long" and "short"
+	"Sunday": "неделя",
+	"Monday": "понеделник",
+	"Tuesday": "вторник",
+	"Wednesday": "сряда",
+	"Thursday": "четвъртък",
+	"Friday": "петък",
+	"Saturday": "събота",
+	"Sun": "нд",
+	"Mon": "пн",
+	"Tues": "вт",
+	"Wed": "ср",
+	"Thu": "чт",
+	"Fri": "пт",
+	"Sat": "сб",
+	
 	"Zoom Out": "Отдалечаване",
 
 	"From %1 to %2": "От %1 до %2",
